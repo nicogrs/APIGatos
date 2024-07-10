@@ -1,4 +1,5 @@
 import {useState, useEffect} from 'react'
+import Select from './components/Select'
 import './App.css'
 
 function App () {
@@ -24,13 +25,19 @@ function App () {
  
     return (
     <div>
-      <div className='imageContainer'>
-          {solicitud && <img className='imagen' src={solicitud} alt="imagen de gato" />}
+      <Select />
+      <div className='container-image'>
+          {solicitud && <img className='image' src={solicitud} alt="imagen de gato" />}
       </div>
-
-     <button onClick={fetchAleatoryImage}>Obtener Imagen Aleatoria</button>
+      <div className='centrar'>
+      <button  onClick={fetchAleatoryImage}>Obtener Imagen Aleatoria</button>
+      </div>
     </div>
   )
-
 }
-export default App 
+
+export default App
+
+
+
+

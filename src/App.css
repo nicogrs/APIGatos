@@ -1,7 +1,27 @@
-.imageContainer {
-}
+.container-image {
+    background-color: rgb(226, 226, 222);
+    border-radius: 15px;
+    padding: 1em;
+    width: 100%;
+    max-width: 300px; /* Puedes ajustar el tamaño máximo según tus necesidades */
+    height: 400px; /* Ajusta la altura según tus necesidades */
+    overflow: hidden; /* Oculta el desbordamiento */
+    position: relative;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit:scale-down; /* Puede ser contain, cover, fill, etc. */
+  }
 
-.imagen{
-width: 60%;
-height: 60%;
-}
+  .centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .centrar button {
+    margin-top: 1em;
+  }
