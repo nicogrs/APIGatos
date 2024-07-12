@@ -1,12 +1,30 @@
+.container {
+  width: 100%;
+  max-width: 45em; /* Puedes ajustar el tamaño máximo según tus necesidades */
+  min-width: 45em;
+  overflow: hidden; /* Oculta el desbordamiento */
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.container2 {
+  max-width: 100%;
+  overflow: hidden; /* Oculta el desbordamiento */
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 .container-image {
     background-color: rgb(226, 226, 222);
     border-radius: 15px;
-    padding: 1em;
-    width: 100%;
-    max-width: 300px; /* Puedes ajustar el tamaño máximo según tus necesidades */
+    padding: 0.6em;
     height: 400px; /* Ajusta la altura según tus necesidades */
     overflow: hidden; /* Oculta el desbordamiento */
     position: relative;
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
   
   .image {
@@ -22,6 +40,20 @@
     text-align: center;
   }
 
+  .textInput {
+    width: 100%;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    color: #333;
+    padding: 1em;
+  }
+  
   .centrar button {
     margin-top: 1em;
+    margin-bottom: 1em;
   }

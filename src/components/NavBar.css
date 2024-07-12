@@ -1,0 +1,43 @@
+.navbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.navbar-logo a {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+.navbar-menu li {
+    float: left;
+}
+
+.navbar-menu li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.navbar-menu li a:hover {
+    background-color: #e6e6e6;
+}
